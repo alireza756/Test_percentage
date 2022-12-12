@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="box">
+        <h1>Calculate the percentage</h1>
+        <form autocomplete="off">
+        <div class="inputs">
+                <input type="number" id="all-tests" name="all-tests" placeholder="number of test">
+                <input type="number" id="correct" name="correct" placeholder="correct tests">
+                <input type="number" id="incorrect" name="incorrect"  placeholder="incorrect tests">
+        </div>
+        <div class="buttons">
+            <input type="submit" id="submit" value="submit">
+            <input type="reset">
+        </div>
+    </form>
+    </div>
+    <div id="result">
+        <p id="percent"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

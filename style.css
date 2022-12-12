@@ -1,0 +1,73 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: green;
+}
+/* Main Box */
+div.box h1{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    padding-top: 35px;
+    color: rgba(0, 0, 0, 0.567);
+}
+div.box{
+    width: 400px;
+    height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    display: block;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-top: 180px;
+}
+div.box div.inputs input{
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin: auto;
+    margin-top: 30px;
+    outline: none;
+}
+div.box div.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+div.box div.buttons input{
+    border: none;
+    cursor: pointer;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+div.box div.buttons input[type=submit]{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    width: 120px;
+}
+div.box div.buttons input[type=reset]{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    width: 120px;
+margin-left: 20px;
+}
+/* Result Box */
+
+div#result{
+    width: 400px;
+    height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    display: none;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-top: 20px;
+}
+div#result p {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
